@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "57dd5da475cd458e",
+    "type": "split",
+    "children": [
+      {
+        "id": "174bf8bcff9ab3c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07e5e7594b2e8362",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "75c43bbe776d83d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "이제 될거임이제 될거임이제 될거임이제 될거임이제 될거임.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fc59e85b3224d9b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc49c71ea4c44c0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6745f4b5b5d1d4b5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3c981f976bc42140",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a406a4d75b0cad36",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3dc56dbe877818d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "69c4e1ced90da8c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ce1d7c0d9c96761",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "이제 될거임이제 될거임이제 될거임이제 될거임이제 될거임.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "be31c6c0899791da",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "이제 될거임이제 될거임이제 될거임이제 될거임이제 될거임.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ab969c3877b51bb4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "50e9d0771f285ebd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "이제 될거임이제 될거임이제 될거임이제 될거임이제 될거임.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "75c43bbe776d83d8",
+  "lastOpenFiles": [
+    "무제 파일.canvas",
+    "이제 될거임이제 될거임이제 될거임이제 될거임이제 될거임.md"
+  ]
+}
