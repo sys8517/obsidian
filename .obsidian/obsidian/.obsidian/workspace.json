@@ -19,16 +19,24 @@
             "id": "75c43bbe776d83d8",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "8c98388136213356",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "이제 될거임이제 될거임이제 될거임이제 될거임이제 될거임.md",
+                "file": "Next.js/Vworld with Next.js.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "이제 될거임이제 될거임이제 될거임이제 될거임이제 될거임.md",
+                "file": "Next.js/Vworld with Next.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "이제 될거임이제 될거임이제 될거임이제 될거임이제 될거임.md",
+                "file": "Next.js/Vworld with Next.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "이제 될거임이제 될거임이제 될거임이제 될거임이제 될거임.md"
+                "file": "Next.js/Vworld with Next.js.md"
               }
             }
           }
@@ -154,14 +162,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "75c43bbe776d83d8",
+  "active": "8c98388136213356",
   "lastOpenFiles": [
     "TIL/2023.10.26.md",
+    "Next.js/Vworld with Next.js.md",
+    "Next.js",
+    "이제 될거임이제 될거임이제 될거임이제 될거임이제 될거임.md",
+    "무제 파일.md",
+    "TIL",
     "TIL/2023.10.23.md",
     "TIL/2023",
     "TIL/2023.10.27",
     "TIL",
-    "무제 파일.canvas",
-    "이제 될거임이제 될거임이제 될거임이제 될거임이제 될거임.md"
+    "무제 파일.canvas"
   ]
 }
