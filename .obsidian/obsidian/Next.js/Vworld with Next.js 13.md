@@ -1,4 +1,4 @@
-Next.js 에서 Vworld를 이용해 지도 구현하기 - Openlayers 라이브러리를 이용한 후, 타일로 Vworld의 지도 이미지를 씌우는 방법 
+Next.js 13 에서 Vworld를 이용해 지도 구현하기 - Openlayers 라이브러리를 이용한 후, 타일로 Vworld의 지도 이미지를 씌우는 방법 
 
 0. 사용 전에 Vworld에서 API 키를 사용목적에 따라 발급받기. 
 
