@@ -16,7 +16,8 @@ const MapContext = React.createContext({});
 
 export default MapContext;
 ```
-5. MapProvider에 넣을 MAP 컴포넌트 만들기 
+
+4. MapProvider에 넣을 MAP Component 만들기 
 ```tsx
 "use client";
 
@@ -105,7 +106,312 @@ const MapComponent = ({ children }) => {
 export default MapComponent;
 ```
 
-4. MAP을 사용할 페이지의 클라이언트 컴포넌트에서 필요한 레이어 등을 만들고 넣기 
+5. MAP을 사용할 페이지의 클라이언트 컴포넌트에서 필요한 레이어 등을 만들고 넣기 
 ```tsx
+"use client";
 
+import MapContext from "@/utils/map/mapContext";
+import { hasOwnProperty } from "@radix-ui/themes"
+import TileLayer from "ol/layer/Tile";
+import { XYZ } from "ol/source";
+import { useContext, useEffect, useState } from "react";
+import { Tile, Vector } from "ol/layer";
+import {
+  Style,
+  Text,
+  Icon,
+  Fill,
+  Stroke,
+  Circle,
+  RegularShape,
+} from "ol/style";
+import VectorSource from "ol/source/Vector.js";
+import Point from "ol/geom/Point.js";
+import Feature from "ol/Feature.js";
+import { fromLonLat, get } from "ol/proj";
+
+export default function MapTestComponent() {
+
+  const { mapObj } = useContext<any>(MapContext);
+
+  const { map } = mapObj;
+
+  const [isMounted, setIsMounted] = useState<boolean>(false);
+
+
+  const [nowMap, setNowMap] = useState<string>("vworld");
+
+
+  useEffect(() => {
+
+    setIsMounted(true);
+
+    console.log(map);
+
+
+    // vworld base
+    const vworld = new TileLayer({
+
+      visible: true,
+
+      properties: { name: "base-vworld" },
+
+      source: new XYZ({
+
+        url: "http://api.vworld.kr/req/wmts/1.0.0/{API 키}/Base/{z}/{y}/{x}.png",
+
+      }),
+
+    });
+
+
+    // vworld 위성
+    const vworldSatelliteLayer = new TileLayer({
+
+      source: new XYZ({
+
+        url: `https://api.vworld.kr/req/wmts/1.0.0/{API 키}/Satellite/{z}/{y}/{x}.jpeg`,
+
+      }),
+
+      properties: { name: "base-vworld-Satellite" },
+
+      minZoom: 5,
+
+      maxZoom: 5,
+
+      zIndex: 10,
+
+      preload: Infinity,
+
+    });
+
+  
+
+    // 마커
+
+    let marker = new Feature({
+
+      geometry: new Point(fromLonLat([128.681882, 35.2279728])),
+
+    });
+
+  
+
+    let myStyle = new Style({
+
+      fill: new Fill({
+
+        color: "#d3d3d3",
+
+      }),
+
+      stroke: new Stroke({ color: "red" }),
+
+
+      image: new RegularShape({
+
+        points: 4,
+
+        stroke: new Stroke({ width: 2, color: "red" }),
+
+        radius: 4,
+
+        scale: 1,
+
+        angle: 4,
+
+      }),
+
+      text: new Text({
+
+        text: "초등학교",
+
+        font: "bold 14px sans-serif",
+
+        offsetY: 10,
+
+      }),
+
+    });
+
+  
+
+    marker.setStyle(myStyle);
+
+  
+
+    const markerLayer = new Vector({
+
+      properties: { name: "marker" },
+
+      source: new VectorSource({
+
+        features: [marker],
+
+      }),
+
+      zIndex: 999,
+
+    });
+
+  
+
+    if (map) {
+
+      console.log("실행될거여요");
+
+      console.log(map.getAllLayers());
+
+      map.getLayers().array_.map((m: any) => {
+
+        console.log("m : ", m);
+
+      });
+
+  
+
+      if (nowMap === "vworld") {
+
+        map?.addLayer(vworld);
+
+        map.getAllLayers().map((m: any) => {
+
+          if (m.get("name") && m.get("name") === "base-vworld-Satellite") {
+
+            map.removeLayer(m);
+
+          }
+
+          return;
+
+        });
+
+      } else {
+
+        map?.addLayer(vworldSatelliteLayer);
+
+        map.getAllLayers().map((m: any) => {
+
+          if (m.get("name") && m.get("name") === "base-vworld") {
+
+            map.removeLayer(m);
+
+          }
+
+          return;
+
+        });
+
+      }
+
+  
+
+      if (map.getAllLayers().some((m: any) => m.get("name") === "marker")) {
+
+      } else {
+
+        map.addLayer(markerLayer);
+
+      }
+
+    }
+
+  }, [mapObj, nowMap]);
+
+  
+
+  // 위성지도
+  const vworldSatelliteLayer = new TileLayer({
+
+    source: new XYZ({
+
+      url: `https://api.vworld.kr/req/wmts/1.0.0/${process.env.VWORLD_LOCAL_SECRET_KEY}/Satellite/{z}/{y}/{x}.jpeg`,
+
+    }),
+
+    properties: { name: "base-vworld-Satellite" },
+
+    minZoom: 5,
+
+    maxZoom: 5,
+
+    zIndex: 10,
+
+    preload: Infinity,
+
+  });
+
+
+  return (
+
+    <>
+
+      <div
+
+        style={{
+
+          display: "flex",
+
+          flexDirection: "row",
+
+          alignItems: "center",
+
+        }}
+
+      >
+
+        <div style={{ height: "100vh", flexBasis: "30%" }}>
+
+          선택상자
+
+          <button
+
+            style={{ border: "1px solid #dbdbdb", padding: "6px" }}
+
+            onClick={() => {
+
+              if (isMounted) {
+
+                if (nowMap === "vworld") {
+
+                  setNowMap("we");
+
+                } else {
+
+                  setNowMap("vworld");
+
+                }
+
+              }
+
+            }}
+
+          >
+
+            지도모드 전환{" "}
+
+          </button>
+
+        </div>
+
+        <div style={{ height: "100vh", flexBasis: "70%" }}>
+
+          <div
+
+            id="map"
+
+            style={{ position: "relative", width: "100%", height: "100vh" }}
+
+          ></div>
+
+        </div>
+
+      </div>
+
+    </>
+
+  );
+
+}
 ```
