@@ -10,8 +10,6 @@ Next.js 13 에서 Vworld를 이용해 지도 구현하기 - Openlayers 라이브
 
 import React from "react";
 
-  
-
 const MapContext = React.createContext({});
 
 export default MapContext;
@@ -198,70 +196,7 @@ export default function MapTestComponent() {
 
   
 
-    let myStyle = new Style({
-
-      fill: new Fill({
-
-        color: "#d3d3d3",
-
-      }),
-
-      stroke: new Stroke({ color: "red" }),
-
-
-      image: new RegularShape({
-
-        points: 4,
-
-        stroke: new Stroke({ width: 2, color: "red" }),
-
-        radius: 4,
-
-        scale: 1,
-
-        angle: 4,
-
-      }),
-
-      text: new Text({
-
-        text: "초등학교",
-
-        font: "bold 14px sans-serif",
-
-        offsetY: 10,
-
-      }),
-
-    });
-
-  
-
-    marker.setStyle(myStyle);
-
-  
-
-    const markerLayer = new Vector({
-
-      properties: { name: "marker" },
-
-      source: new VectorSource({
-
-        features: [marker],
-
-      }),
-
-      zIndex: 999,
-
-    });
-
-  
-
-    if (map) {
-
-      console.log("실행될거여요");
-
-      console.log(map.getAllLayers());
+    let myStyle 옴
 
       map.getLayers().array_.map((m: any) => {
 
@@ -326,7 +261,7 @@ export default function MapTestComponent() {
 
     source: new XYZ({
 
-      url: `https://api.vworld.kr/req/wmts/1.0.0/${process.env.VWORLD_LOCAL_SECRET_KEY}/Satellite/{z}/{y}/{x}.jpeg`,
+      url: `https://api.vworld.kr/req/wmts/1.0.0/{API키}/Satellite/{z}/{y}/{x}.jpeg`,
 
     }),
 
