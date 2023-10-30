@@ -350,3 +350,9 @@ export default function MapTestComponent() {
 
 }
 ```
+
+
+--- 
+
+하단은 openlayers의 여러 기능들을 구현해본 것이다.
+(마커 / 확대,축소 / 현재 내 위치로 이동 / )
