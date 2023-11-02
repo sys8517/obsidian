@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/2023.10.30.md",
+                "file": "Git/Git 가장 많이 사용하는 명령어 (add - commit - push).md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TIL/2023.10.30.md",
+                "file": "Git/Git 가장 많이 사용하는 명령어 (add - commit - push).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TIL/2023.10.30.md",
+                "file": "Git/Git 가장 많이 사용하는 명령어 (add - commit - push).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TIL/2023.10.30.md"
+                "file": "Git/Git 가장 많이 사용하는 명령어 (add - commit - push).md"
               }
             }
           }
@@ -164,8 +164,10 @@
   },
   "active": "8c98388136213356",
   "lastOpenFiles": [
-    "Next.js/Vworld with Next.js 13.md",
     "TIL/2023.10.30.md",
+    "Git/Git 가장 많이 사용하는 명령어 (add - commit - push).md",
+    "Git",
+    "Next.js/Vworld with Next.js 13.md",
     "TIL/2023.10.27.md",
     "TIL/2023.10.26.md",
     "Next.js",
