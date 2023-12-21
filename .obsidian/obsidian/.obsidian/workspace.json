@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/마크다운.md",
+                "file": "TIL/2023.12.20.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 217.5
   },
   "right": {
     "id": "3dc56dbe877818d4",
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/마크다운.md",
+                "file": "TIL/2023.12.20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/마크다운.md",
+                "file": "TIL/2023.12.20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian/마크다운.md"
+                "file": "TIL/2023.12.20.md"
               }
             }
           }
@@ -164,14 +164,16 @@
   },
   "active": "8c98388136213356",
   "lastOpenFiles": [
-    "Git/Git 가장 많이 사용하는 명령어 (add - commit - push).md",
-    "Obsidian/마크다운.md",
-    "Obsidian",
+    "TIL/2023.12.21.md",
+    "TIL/2023.12.20.md",
+    "TIL/2023.10.26.md",
+    "TIL/2023.10.27.md",
     "TIL/2023.10.30.md",
+    "Obsidian/마크다운.md",
+    "Git/Git 가장 많이 사용하는 명령어 (add - commit - push).md",
+    "Obsidian",
     "Git",
     "Next.js/Vworld with Next.js 13.md",
-    "TIL/2023.10.27.md",
-    "TIL/2023.10.26.md",
     "Next.js",
     "이제 될거임이제 될거임이제 될거임이제 될거임이제 될거임.md",
     "무제 파일.md",
