@@ -8,22 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "07e5e7594b2e8362",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "75c43bbe776d83d8",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
             "id": "8c98388136213356",
             "type": "leaf",
             "state": {
@@ -34,9 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "24dba55b4a13e389",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TIL/2024.01.10 - NextAuth.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TIL/2024.01.04 - useRef 여러 개 선언.md",
+                "file": "TIL/2024.01.10 - NextAuth.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TIL/2024.01.04 - useRef 여러 개 선언.md",
+                "file": "TIL/2024.01.10 - NextAuth.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TIL/2024.01.04 - useRef 여러 개 선언.md"
+                "file": "TIL/2024.01.10 - NextAuth.md"
               }
             }
           }
@@ -162,19 +158,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8c98388136213356",
+  "active": "24dba55b4a13e389",
   "lastOpenFiles": [
-    "TIL/2023.12.21 - JS 텍스트 복사(Copy) 및 txt 파일로 저장.md",
     "TIL/2024.01.04 - useRef 여러 개 선언.md",
+    "TIL/2024.01.10 - NextAuth.md",
+    "Next.js/Vworld with Next.js 13.md",
+    "Git/Git 가장 많이 사용하는 명령어 (add - commit - push).md",
+    "TIL/2023.12.21 - JS 텍스트 복사(Copy) 및 txt 파일로 저장.md",
     "TIL/2023.10.30.md",
     "TIL/2023.12.20 - 엑셀 업로드 기능 구현.md",
     "Obsidian/마크다운.md",
     "TIL/2023.10.26.md",
     "TIL/2023.10.27.md",
-    "Git/Git 가장 많이 사용하는 명령어 (add - commit - push).md",
     "Obsidian",
     "Git",
-    "Next.js/Vworld with Next.js 13.md",
     "Next.js",
     "이제 될거임이제 될거임이제 될거임이제 될거임이제 될거임.md",
     "무제 파일.md",
