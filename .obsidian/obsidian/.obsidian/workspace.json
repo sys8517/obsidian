@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/2023.12.21 - JS 텍스트 복사(Copy) 및 txt 파일로 저장.md",
+                "file": "TIL/2024.01.04 - useRef 여러 개 선언.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TIL/2023.12.21 - JS 텍스트 복사(Copy) 및 txt 파일로 저장.md",
+                "file": "TIL/2024.01.04 - useRef 여러 개 선언.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TIL/2023.12.21 - JS 텍스트 복사(Copy) 및 txt 파일로 저장.md",
+                "file": "TIL/2024.01.04 - useRef 여러 개 선언.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TIL/2023.12.21 - JS 텍스트 복사(Copy) 및 txt 파일로 저장.md"
+                "file": "TIL/2024.01.04 - useRef 여러 개 선언.md"
               }
             }
           }
@@ -160,11 +160,11 @@
   },
   "active": "24dba55b4a13e389",
   "lastOpenFiles": [
+    "TIL/2023.12.21 - JS 텍스트 복사(Copy) 및 txt 파일로 저장.md",
     "TIL/2024.01.04 - useRef 여러 개 선언.md",
     "TIL/2024.01.10 - NextAuth & tr key값 사용 오류.md",
     "Next.js/Vworld with Next.js 13.md",
     "Git/Git 가장 많이 사용하는 명령어 (add - commit - push).md",
-    "TIL/2023.12.21 - JS 텍스트 복사(Copy) 및 txt 파일로 저장.md",
     "TIL/2023.10.30.md",
     "TIL/2023.12.20 - 엑셀 업로드 기능 구현.md",
     "Obsidian/마크다운.md",
