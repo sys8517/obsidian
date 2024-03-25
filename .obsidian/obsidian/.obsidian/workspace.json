@@ -23,9 +23,11 @@
             "id": "114043d965e5b564",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Honeycam 2024-03-25 10-40-48.gif"
+                "file": "TIL/2023.03.25 - next.js 13, 14 og img 작업.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -108,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Honeycam 2024-03-25 10-40-48.gif",
+                "file": "TIL/2023.03.25 - next.js 13, 14 og img 작업.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Honeycam 2024-03-25 10-40-48.gif",
+                "file": "TIL/2023.03.25 - next.js 13, 14 og img 작업.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Honeycam 2024-03-25 10-40-48.gif"
+                "file": "TIL/2023.03.25 - next.js 13, 14 og img 작업.md"
               }
             }
           }
@@ -168,10 +170,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6745f4b5b5d1d4b5",
+  "active": "114043d965e5b564",
   "lastOpenFiles": [
-    "TIL/2023.12.21 - JS 텍스트 복사(Copy) 및 txt 파일로 저장.md",
     "Honeycam 2024-03-25 10-40-48.gif",
+    "TIL/2023.03.25 - next.js 13, 14 og img 작업.md",
+    "TIL/2023.12.21 - JS 텍스트 복사(Copy) 및 txt 파일로 저장.md",
     "Obsidian/마크다운.md",
     "TIL/2024.01.17 - React hook form.md",
     "TIL/2024.03.25 - 이미지 고정 css 로 화면전환 효과 만들기.md",
