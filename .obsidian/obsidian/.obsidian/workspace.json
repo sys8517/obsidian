@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "참고 사이트/퍼블리싱 참고 사이트.md",
+                "file": "Next.js/Vworld with Next.js 13.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "참고 사이트/퍼블리싱 참고 사이트.md",
+                "file": "Next.js/Vworld with Next.js 13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "참고 사이트/퍼블리싱 참고 사이트.md",
+                "file": "Next.js/Vworld with Next.js 13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "참고 사이트/퍼블리싱 참고 사이트.md"
+                "file": "Next.js/Vworld with Next.js 13.md"
               }
             }
           }
@@ -172,8 +172,11 @@
   },
   "active": "114043d965e5b564",
   "lastOpenFiles": [
-    "TIL/2024.03.25 - next.js 13, 14 og img 작업.md",
+    "라이브러리/excel.js.md",
     "참고 사이트/퍼블리싱 참고 사이트.md",
+    "무제 파일.md",
+    "라이브러리",
+    "TIL/2024.03.25 - next.js 13, 14 og img 작업.md",
     "참고 사이트",
     "TIL/2023.10.26.md",
     "TIL/2023.10.27.md",
@@ -183,7 +186,6 @@
     "Obsidian/마크다운.md",
     "TIL/2024.01.17 - React hook form.md",
     "TIL/2024.03.25 - 이미지 고정 css 로 화면전환 효과 만들기.md",
-    "무제 파일.md",
     "TIL/2024.03.22 - 타이핑 효과 퍼블리싱.md",
     "TIL/2024.01.22 - React-calendar.md",
     "TIL/2024.03.18 - 배열 2개끼리 비교.md",
