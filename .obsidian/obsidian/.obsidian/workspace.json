@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Vworld with Next.js 13.md",
+                "file": "라이브러리/excel.js.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Vworld with Next.js 13.md",
+                "file": "라이브러리/excel.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Vworld with Next.js 13.md",
+                "file": "라이브러리/excel.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Vworld with Next.js 13.md"
+                "file": "라이브러리/excel.js.md"
               }
             }
           }
@@ -172,6 +172,7 @@
   },
   "active": "114043d965e5b564",
   "lastOpenFiles": [
+    "Next.js/Vworld with Next.js 13.md",
     "라이브러리/excel.js.md",
     "참고 사이트/퍼블리싱 참고 사이트.md",
     "무제 파일.md",
@@ -194,7 +195,6 @@
     "TIL/2023.12.20 - 엑셀 업로드 기능 구현.md",
     "TIL/2024.01.04 - useRef 여러 개 선언.md",
     "TIL/2024.01.10 - NextAuth & tr key값 사용 오류.md",
-    "Next.js/Vworld with Next.js 13.md",
     "Git/Git 가장 많이 사용하는 명령어 (add - commit - push).md",
     "Obsidian",
     "Git",
